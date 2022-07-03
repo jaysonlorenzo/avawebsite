@@ -1,16 +1,16 @@
 import * as React from "react"
 import Seo from "../components/seo"
 import Layout from "../components/layout"
-import Contact from "../components/Contact"
+import Avaroi from "../components/ROI"
 
 
-const ctct = () => (
+const roi = () => (
   
     <Layout>
-        <Seo title="Contact Us"/>
-        <Contact />
+        <Seo title="AVA ROI Calculator"/>
+        <Avaroi />
     </Layout>
 
 )
 
-export default ctct
+export default roi

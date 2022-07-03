@@ -2,7 +2,7 @@ import React from "react";
 import orgImg from "../images/orgbgImg.png"
 const OrgPack = () => {
     return(
-        <div className="w-full my-32">
+        <div id="orgpack" className="w-full my-32">
             <div className="grid md:grid-cols-2 max-w-[1240px] m-auto transition duration-150 ease-out md:ease-in">
                 <div className="w-full h-full">
                 <img className=" w-full h-full object-cover" src={orgImg} alt=''/>

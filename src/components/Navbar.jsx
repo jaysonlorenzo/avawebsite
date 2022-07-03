@@ -7,22 +7,22 @@ import { Link } from "gatsby"
 const OrganickPackages = [
     {
       text: "Organic Packages",
-      url: "/Organicpg",
+      url: "/Organicpg#home",
       badge: false,
       description:
         "Get a quote"
     },
     
   ]
-  const CU = [
-    {
-        text: "Contact Us",
-        url: "/ContactUs",
-        badge: false,
-        description:
-          "Get a quote"
-      },
-    ]
+const CU = [
+{
+    text: "Contact Us",
+    url: "/ContactUs",
+    badge: false,
+    description:
+        "Get a quote"
+    },
+]
 
 const Navbar = () => {
 const [nav, setNav] = useState(false);
@@ -55,7 +55,12 @@ const handleClick = () => setNav(!nav);
                     </ul>
                 </div>
                 <div className="hidden md:flex pr-4">
-                    <button className="px-8 py-3">Contact Us</button>
+                    <button className="px-8 py-3">{CU.map((link, i) => (
+                        <React.Fragment key={link.url}>
+                            <Link to={link.url}>{link.text}</Link>
+                            {i !== CU.length - 1 && <> · </>}
+                        </React.Fragment>
+                        ))}</button>
                 </div>
                 <div className="md:hidden mr-4" onClick={handleClick} onKeyDown={handleClick}>
                     {
