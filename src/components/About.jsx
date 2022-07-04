@@ -8,7 +8,7 @@ const About = () => {
                     <h2 className="text-5xl font-bold">
                         Trusted by Everyone across the world
                     </h2>
-                    <p className="text-3xl py-6 text-gray-500">An aggresive strategy for digitalmarketing gives client partners the accelerated SERP performance they require for expansion.</p>
+                    <p className="text-3xl py-6 text-gray-500">An aggresive strategy for digital marketing gives client partners the accelerated SERP performance they require for expansion.</p>
                     <div className="grid md:grid-cols-3 gap-1 px-2 text-center">
                         <div className="border py-8 rounded-xl shadow-xl">
                             <p className="text-6xl font-bold text-indigo-600">100%</p>
