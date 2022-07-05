@@ -60,14 +60,14 @@ const Footer = () => {
                 <p className='font-bold uppercase'>Interested? Leave your email</p>
                 <form className='flex flex-col sm:flex-row'>
                     <input className='w-full p-2 mr-4 rounded-md mb-4' type="email" /> 
-                    <button className='p-2 mb-4'>Chat with Us</button>
+                    <button className='px-4 py-2 mb-4'>SEND</button>
                 </form>
         
             </div>
             
         </div>
         <div className='flex max-w-[1240] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500'>
-            <p>2022 AVA. All rights reserved</p>
+            <p>AVA 2022. All rights reserved</p>
         </div>
         
     </footer>
